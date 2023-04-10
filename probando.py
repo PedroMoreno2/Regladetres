@@ -1,3 +1,3 @@
 import streamlit as st
-a=st.input("esto que es")
+a=st.text.input("esto que es")
 st.text(a)
