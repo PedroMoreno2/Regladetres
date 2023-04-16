@@ -14,9 +14,6 @@ if(st.button("Click me for no reason")):
     st.markdown(":red[lo estás haciendo muy bien]")
 elec_foto=st.selectbox("Fotos:",
                      ['F1', 'F2', 'F3'])
+if elec_foto=="F3":
+    st.image("F3.jpg")
 st.image("https://www.bekaretransfers.com/blog/wp-content/uploads/2017/05/whaleshark.jpeg")
-st.image(F1)
-fotoguay=Image.open(F1.jpg)
-st.image(fotoguay,width=200)
-fotillo=Image.open(elec_foto)
-st.image(fotillo, width=200)
