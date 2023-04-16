@@ -7,8 +7,8 @@ if elec_animal==listilla[0]:
 elif elec_animal==listilla[1]:
     st.warning("uno mero dos de febrero")
 elif elec_animal==listilla[2]:
-    st.succes("por fin llegamos a lo que interesa")
-elif elec_animal==listilla[4]:
+    st.success("por fin llegamos a lo que interesa")
+elif elec_animal==listilla[3]:
     st.text("elige tiburón ballena por favor")
 if(st.button("Click me for no reason")):
     st.markdown(":red[lo estás haciendo muy bien]")
