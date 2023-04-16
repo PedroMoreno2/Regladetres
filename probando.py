@@ -17,9 +17,9 @@ if(st.button("Click me for no reason")):
 elec_foto=st.selectbox("Ahora lo complicado:",
                      ["Elige una foto"]+fotillos)
 if elec_foto=="F1":
-    st.image("F1.jpg",width=50)
+    st.image("F1.jpg",width=500)
 elif elec_foto=="F2":
-    st.image("F2.jpg",width=100)
+    st.image("F2.jpg",width=500)
 elif elec_foto=="F3":
     st.image("F3.jpg")
 
