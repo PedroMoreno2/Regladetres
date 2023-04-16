@@ -14,8 +14,8 @@ elif elec_animal==listilla[3]:
     st.text("elige tiburón ballena por favor")
 if(st.button("Click me for no reason")):
     st.markdown(":red[lo estás haciendo muy bien]")
-elec_foto=st.selectbox("Elige una foto de tiburón ballena:",
-                     fotillos)
+elec_foto=st.selectbox("Ahora lo complicado:",
+                     ["Elige una foto"]+fotillos)
 if elec_foto=="F1":
     st.image("F1.jpg")
 elif elec_foto=="F2":
