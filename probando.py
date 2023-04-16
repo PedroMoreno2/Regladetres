@@ -14,7 +14,7 @@ if(st.button("Click me for no reason")):
     st.markdown(":red[lo estás haciendo muy bien]")
 elec_foto=st.selectbox("Fotos:",
                      ['F1', 'F2', 'F3'])
-st.image(https://www.bekaretransfers.com/blog/wp-content/uploads/2017/05/whaleshark.jpeg)
+st.image("https://www.bekaretransfers.com/blog/wp-content/uploads/2017/05/whaleshark.jpeg")
 st.image(F1)
 fotoguay=Image.open(F1.jpg)
 st.image(fotoguay,width=200)
