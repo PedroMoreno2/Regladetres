@@ -14,5 +14,7 @@ if(st.button("Click me for no reason")):
     st.markdown(":red[lo estás haciendo muy bien]")
 elec_foto=st.selectbox("Fotos:",
                      ['F1', 'F2', 'F3'])
+fotoguay=Image.open(F1.jpg)
+st.image(fotoguay,width=200)
 fotillo=Image.open(elec_foto)
 st.image(fotillo, width=200)
